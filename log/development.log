@@ -647,3 +647,157 @@ Rendering template within layouts/application
 Rendering pages/index
 Rendered pages/_rightcol (0.1ms)
 Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:19:45) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 60ms (View: 59 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:19:59) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.2ms)
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:20:05) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:20:15) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:20:40) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:21:04) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:21:25) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:21:44) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:22:08) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:22:15) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:22:34) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 62ms (View: 61 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:22:44) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:22:52) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 5ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:23:03) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:23:07) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:23:17) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-10-13 18:23:24) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered pages/_rightcol (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://localhost/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-10-13 18:23:51) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered pages/_rightcol (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://localhost/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-10-13 18:24:06) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered pages/_rightcol (0.1ms)
+Completed in 4ms (View: 3 | 200 OK [http://localhost/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-10-13 18:24:19) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered pages/_rightcol (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://localhost/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-10-13 18:24:24) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered pages/_rightcol (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://localhost/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-10-13 18:24:50) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered pages/_rightcol (0.1ms)
+Completed in 5ms (View: 3 | 200 OK [http://localhost/about]

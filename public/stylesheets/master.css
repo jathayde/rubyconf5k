@@ -35,14 +35,13 @@ p {margin: 5px 0 10px;}
 
 #nest {overflow: auto; text-align: left;}
 
-#mast {text-align: center;}
+#mast {text-align: center; margin-bottom: 30px;}
 
 #mast #homelogo {margin: 0 auto;}
 
+ul#nav {margin-left: 140px;}
 
-ul#nav {}
-
-ul#nav li {}
+ul#nav li {color: #ae2a1b; float: left; font-size: 18px; list-style-type: none; margin: 0 10px; text-transform: uppercase;}
 
 ul#nav li a {}
 
