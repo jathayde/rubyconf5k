@@ -1,0 +1,8 @@
+body {
+  font: 11px/18px Verdana, Arial, sans-serif;
+  color: #333;
+}
+
+body#inside {
+  background: #fff url(../images/inside_logo.jpg) no-repeat top left;
+}
