@@ -33,7 +33,7 @@ p {margin: 5px 0 10px;}
   width: 860px; 
 }
 
-#nest {overflow: auto;}
+#nest {overflow: auto; text-align: left;}
 
 #mast {text-align: center;}
 

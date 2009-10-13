@@ -51,11 +51,17 @@ sIFR.activate(gothamblack);
 // of the entire Flash movie to be a light grey, and the `color` of the text to
 // be red. Read more about styling at <http://wiki.novemberborn.net/sifr3/Styling>.
 sIFR.replace(gothamblack, {
+  selector: 'h1.sifrd',
+  css: '.sIFR-root { font-size: 32px; background-color: #FFFFFF; color: #ae2a1b; }'
+});
+
+
+sIFR.replace(gothamblack, {
   selector: 'h2.sifrd',
   css: '.sIFR-root { font-size: 24px; background-color: #FFFFFF; color: #ae2a1b; }'
 });
 
 sIFR.replace(gothamblack, {
   selector: 'h3.sifrd',
-  css: '.sIFR-root { font-size: 18px; background-color: #FFFFFF; color: #ae2a1b; }'
+  css: '.sIFR-root { font-size: 14px; text-transform: uppercase; background-color: #FFFFFF; color: #ae2a1b; }'
 });
