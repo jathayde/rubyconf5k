@@ -1,8 +1,52 @@
 body {
-  font: 11px/18px Verdana, Arial, sans-serif;
   color: #333;
+  font: 11px/18px Verdana, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-body#inside {
-  background: #fff url(../images/inside_logo.jpg) no-repeat top left;
+
+
+/* LINK STANDARD COLORS */
+
+a         {color:#ae2a1b; text-decoration:none;}
+a:link    {color:#ae2a1b; text-decoration:underline;}
+a:hover   {color:#e13722; text-decoration:none; font-weight: bold;}
+a:visited {color:#6b352f; text-decoration:underline;}
+
+
+
+/* Standard element definitoins */
+
+h2 {background-color: #FFFFFF; color: #ae2a1b; font-size: 24px; font-weight: bold; }
+h3 {background-color: #FFFFFF; color: #ae2a1b; font-size: 18px; font-weight: bold; }
+
+p {margin: 5px 0 10px;}
+
+
+
+/* Page elements */
+
+#wrapper {
+  margin: 0 auto;
+  width: 860px; 
 }
+
+#nest {overflow: auto;}
+
+#mast {text-align: center;}
+
+#mast #homelogo {margin: 0 auto;}
+
+
+ul#nav {}
+
+ul#nav li {}
+
+ul#nav li a {}
+
+
+
+#leftcolumn {float: left; width: 550px;}
+#rightcolumn {float: right; width: 300px;}

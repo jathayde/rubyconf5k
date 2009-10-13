@@ -16,20 +16,32 @@
     <%= stylesheet_link_tag 'master', :media => 'screen, projector' %>
     <%= stylesheet_link_tag 'sifr' %>
     
-    <%= javascript_link_tag 'sifr' %>
-    <%= javascript_link_tag 'sifr-config' %>
+    <%= javascript_include_tag 'sifr' %>
+    <%= javascript_include_tag 'sifr-config' %>
+    
     
   </head>
   <body id="<%= @body_id %>">
     <div id="wrapper">
     <div id="nest">
       <div id="mast">
+        <% if @body_id == "inside" %>
+          <%= link_to image_tag("inside_logo.jpg", :alt => "RubyConf 5k", :id => "logo"), root_url %>
+        <% end %>
+        <% if @body_id == "home" %>
+          <%= link_to image_tag("logo.jpg", :alt => "RubyConf 5k", :id => "homelogo"), root_url %>
+        <% end %>
         <ul id="nav">
           <li></li>
           <li></li>
         </ul> <!-- // nav -->
       </div> <!-- // mast -->
-  <%= yield :layout %>
+      <div id="leftcolumn">
+        <%= yield %>
+      </div>
+      <div id="rightcolumn">
+        <%= yield :rightcol %>
+      </div>
     </div> <!-- // nest -->
     </div> <!-- // wrapper -->
   </body>

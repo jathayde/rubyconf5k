@@ -1,0 +1,614 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-13 17:58:17) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 17:58:33) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+
+ActionView::TemplateError (undefined method `javascript_link_tag' for #<ActionView::Base:0x1b5687c>) on line #19 of app/views/layouts/application.html.erb:
+16:     <%= stylesheet_link_tag 'master', :media => 'screen, projector' %>
+17:     <%= stylesheet_link_tag 'sifr' %>
+18:     
+19:     <%= javascript_link_tag 'sifr' %>
+20:     <%= javascript_link_tag 'sifr-config' %>
+21:     
+22:   </head>
+
+    app/views/layouts/application.html.erb:19
+
+Rendered rescues/_trace (30.0ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 17:59:08) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Completed in 88ms (View: 86 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 17:59:30) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+
+ActionView::TemplateError (undefined method `include?' for :rightcol:Symbol) on line #2 of app/views/pages/index.html.erb:
+1: <% content_for :rightcol do %>
+2:   <%= render :partial => :rightcol %>
+3:   
+4:   
+5: <% end %>
+
+    app/views/pages/index.html.erb:2
+    app/views/pages/index.html.erb:1
+
+Rendered rescues/_trace (34.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:00:07) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.3ms)
+Completed in 65ms (View: 64 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:00:14) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.5ms)
+Completed in 7ms (View: 6 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:01:57) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.3ms)
+Completed in 15ms (View: 13 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:02:02) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:02:21) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 55ms (View: 54 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:02:34) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 9ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:03:08) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.2ms)
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:04:01) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:04:31) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:04:38) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:04:58) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+ERROR: compiling _run_erb_app47views47layouts47application46html46erb RAISED compile error
+/Users/jathayde/Sites/rubyconf5k/app/views/layouts/application.html.erb:28: syntax error, unexpected ';'
+@output_buffer.concat "        ";  if @body_id = "inside"? ; @output_buffer.concat "\n"
+                                                            ^
+/Users/jathayde/Sites/rubyconf5k/app/views/layouts/application.html.erb:31: syntax error, unexpected ';'
+@output_buffer.concat "        ";  if @body_id = "home"? ; @output_buffer.concat "\n"
+                                                          ^
+/Users/jathayde/Sites/rubyconf5k/app/views/layouts/application.html.erb:33: syntax error, unexpected kEND, expecting $end
+@output_buffer.concat "        ";  end ; @output_buffer.concat "\n"
+                                      ^
+Function body:           def _run_erb_app47views47layouts47application46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n"
+@output_buffer.concat "       \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n"
+@output_buffer.concat "  <head>\n"
+@output_buffer.concat "    <title>RubyConf5k | "; @output_buffer.concat(( @page_title ).to_s); @output_buffer.concat "</title>\n"
+@output_buffer.concat "    \n"
+@output_buffer.concat "    <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n"
+@output_buffer.concat "    <meta http-equiv=\"imagetoolbar\" content=\"no\" />\n"
+@output_buffer.concat "    <meta name=\"distribution\" content=\"all\" />\n"
+@output_buffer.concat "    <meta name=\"robots\" content=\"all\" />  \n"
+@output_buffer.concat "    <meta name=\"resource-type\" content=\"document\" />\n"
+@output_buffer.concat "    <meta name=\"MSSmartTagsPreventParsing\" content=\"true\" />\n"
+@output_buffer.concat "    \n"
+@output_buffer.concat "    "; @output_buffer.concat(( stylesheet_link_tag 'reset', :media => 'screen, projector' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "    "; @output_buffer.concat(( stylesheet_link_tag 'master', :media => 'screen, projector' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "    "; @output_buffer.concat(( stylesheet_link_tag 'sifr' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "    \n"
+@output_buffer.concat "    "; @output_buffer.concat(( javascript_include_tag 'sifr' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "    "; @output_buffer.concat(( javascript_include_tag 'sifr-config' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "    \n"
+@output_buffer.concat "    \n"
+@output_buffer.concat "  </head>\n"
+@output_buffer.concat "  <body id=\""; @output_buffer.concat(( @body_id ).to_s); @output_buffer.concat "\">\n"
+@output_buffer.concat "    <div id=\"wrapper\">\n"
+@output_buffer.concat "    <div id=\"nest\">\n"
+@output_buffer.concat "      <div id=\"mast\">\n"
+@output_buffer.concat "        ";  if @body_id = "inside"? ; @output_buffer.concat "\n"
+@output_buffer.concat "          "; @output_buffer.concat(( link_to image_tag("inside_logo.jpg", :alt => "RubyConf 5k"), root_url ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "        ";  end ; @output_buffer.concat "\n"
+@output_buffer.concat "        ";  if @body_id = "home"? ; @output_buffer.concat "\n"
+@output_buffer.concat "          "; @output_buffer.concat(( link_to image_tag("logo.jpg", :alt => "RubyConf 5k"), root_url, :id => "homelogo" ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "        ";  end ; @output_buffer.concat "\n"
+@output_buffer.concat "        <ul id=\"nav\">\n"
+@output_buffer.concat "          <li></li>\n"
+@output_buffer.concat "          <li></li>\n"
+@output_buffer.concat "        </ul> <!-- // nav -->\n"
+@output_buffer.concat "      </div> <!-- // mast -->\n"
+@output_buffer.concat "      <div id=\"leftcolumn\">\n"
+@output_buffer.concat "        "; @output_buffer.concat(( yield ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      </div>\n"
+@output_buffer.concat "      <div id=\"rightcolumn\">\n"
+@output_buffer.concat "        "; @output_buffer.concat(( yield :rightcol ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      </div>\n"
+@output_buffer.concat "    </div> <!-- // nest -->\n"
+@output_buffer.concat "    </div> <!-- // wrapper -->\n"
+@output_buffer.concat "  </body>\n"
+@output_buffer.concat "</html>\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/jathayde/Sites/rubyconf5k/app/views/layouts/application.html.erb:33:in `compile!'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:347:in `_render_with_layout'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/jathayde/Sites/rubyconf5k/app/views/layouts/application.html.erb:28: syntax error, unexpected ';'
+@output_buffer.concat "        ";  if @body_id = "inside"? ; @output_buffer.concat "\n"
+                                                            ^
+/Users/jathayde/Sites/rubyconf5k/app/views/layouts/application.html.erb:31: syntax error, unexpected ';'
+@output_buffer.concat "        ";  if @body_id = "home"? ; @output_buffer.concat "\n"
+                                                          ^
+/Users/jathayde/Sites/rubyconf5k/app/views/layouts/application.html.erb:33: syntax error, unexpected kEND, expecting $end
+@output_buffer.concat "        ";  end ; @output_buffer.concat "\n"
+                                      ^) on line #28 of app/views/layouts/application.html.erb:
+25:     <div id="wrapper">
+26:     <div id="nest">
+27:       <div id="mast">
+28:         <% if @body_id = "inside"? %>
+29:           <%= link_to image_tag("inside_logo.jpg", :alt => "RubyConf 5k"), root_url %>
+30:         <% end %>
+31:         <% if @body_id = "home"? %>
+
+    app/views/layouts/application.html.erb:33:in `compile!'
+
+Rendered rescues/_trace (30.5ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:05:11) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+ERROR: compiling _run_erb_app47views47layouts47application46html46erb RAISED compile error
+/Users/jathayde/Sites/rubyconf5k/app/views/layouts/application.html.erb:28: syntax error, unexpected ';'
+@output_buffer.concat "        ";  if @body_id="inside"? ; @output_buffer.concat "\n"
+                                                          ^
+/Users/jathayde/Sites/rubyconf5k/app/views/layouts/application.html.erb:31: syntax error, unexpected ';'
+@output_buffer.concat "        ";  if @body_id="home"? ; @output_buffer.concat "\n"
+                                                        ^
+/Users/jathayde/Sites/rubyconf5k/app/views/layouts/application.html.erb:33: syntax error, unexpected kEND, expecting $end
+@output_buffer.concat "        ";  end ; @output_buffer.concat "\n"
+                                      ^
+Function body:           def _run_erb_app47views47layouts47application46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n"
+@output_buffer.concat "       \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n"
+@output_buffer.concat "  <head>\n"
+@output_buffer.concat "    <title>RubyConf5k | "; @output_buffer.concat(( @page_title ).to_s); @output_buffer.concat "</title>\n"
+@output_buffer.concat "    \n"
+@output_buffer.concat "    <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n"
+@output_buffer.concat "    <meta http-equiv=\"imagetoolbar\" content=\"no\" />\n"
+@output_buffer.concat "    <meta name=\"distribution\" content=\"all\" />\n"
+@output_buffer.concat "    <meta name=\"robots\" content=\"all\" />  \n"
+@output_buffer.concat "    <meta name=\"resource-type\" content=\"document\" />\n"
+@output_buffer.concat "    <meta name=\"MSSmartTagsPreventParsing\" content=\"true\" />\n"
+@output_buffer.concat "    \n"
+@output_buffer.concat "    "; @output_buffer.concat(( stylesheet_link_tag 'reset', :media => 'screen, projector' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "    "; @output_buffer.concat(( stylesheet_link_tag 'master', :media => 'screen, projector' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "    "; @output_buffer.concat(( stylesheet_link_tag 'sifr' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "    \n"
+@output_buffer.concat "    "; @output_buffer.concat(( javascript_include_tag 'sifr' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "    "; @output_buffer.concat(( javascript_include_tag 'sifr-config' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "    \n"
+@output_buffer.concat "    \n"
+@output_buffer.concat "  </head>\n"
+@output_buffer.concat "  <body id=\""; @output_buffer.concat(( @body_id ).to_s); @output_buffer.concat "\">\n"
+@output_buffer.concat "    <div id=\"wrapper\">\n"
+@output_buffer.concat "    <div id=\"nest\">\n"
+@output_buffer.concat "      <div id=\"mast\">\n"
+@output_buffer.concat "        ";  if @body_id="inside"? ; @output_buffer.concat "\n"
+@output_buffer.concat "          "; @output_buffer.concat(( link_to image_tag("inside_logo.jpg", :alt => "RubyConf 5k"), root_url ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "        ";  end ; @output_buffer.concat "\n"
+@output_buffer.concat "        ";  if @body_id="home"? ; @output_buffer.concat "\n"
+@output_buffer.concat "          "; @output_buffer.concat(( link_to image_tag("logo.jpg", :alt => "RubyConf 5k"), root_url, :id => "homelogo" ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "        ";  end ; @output_buffer.concat "\n"
+@output_buffer.concat "        <ul id=\"nav\">\n"
+@output_buffer.concat "          <li></li>\n"
+@output_buffer.concat "          <li></li>\n"
+@output_buffer.concat "        </ul> <!-- // nav -->\n"
+@output_buffer.concat "      </div> <!-- // mast -->\n"
+@output_buffer.concat "      <div id=\"leftcolumn\">\n"
+@output_buffer.concat "        "; @output_buffer.concat(( yield ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      </div>\n"
+@output_buffer.concat "      <div id=\"rightcolumn\">\n"
+@output_buffer.concat "        "; @output_buffer.concat(( yield :rightcol ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      </div>\n"
+@output_buffer.concat "    </div> <!-- // nest -->\n"
+@output_buffer.concat "    </div> <!-- // wrapper -->\n"
+@output_buffer.concat "  </body>\n"
+@output_buffer.concat "</html>\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/jathayde/Sites/rubyconf5k/app/views/layouts/application.html.erb:33:in `compile!'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:347:in `_render_with_layout'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/jathayde/Sites/rubyconf5k/app/views/layouts/application.html.erb:28: syntax error, unexpected ';'
+@output_buffer.concat "        ";  if @body_id="inside"? ; @output_buffer.concat "\n"
+                                                          ^
+/Users/jathayde/Sites/rubyconf5k/app/views/layouts/application.html.erb:31: syntax error, unexpected ';'
+@output_buffer.concat "        ";  if @body_id="home"? ; @output_buffer.concat "\n"
+                                                        ^
+/Users/jathayde/Sites/rubyconf5k/app/views/layouts/application.html.erb:33: syntax error, unexpected kEND, expecting $end
+@output_buffer.concat "        ";  end ; @output_buffer.concat "\n"
+                                      ^) on line #28 of app/views/layouts/application.html.erb:
+25:     <div id="wrapper">
+26:     <div id="nest">
+27:       <div id="mast">
+28:         <% if @body_id="inside"? %>
+29:           <%= link_to image_tag("inside_logo.jpg", :alt => "RubyConf 5k"), root_url %>
+30:         <% end %>
+31:         <% if @body_id="home"? %>
+
+    app/views/layouts/application.html.erb:33:in `compile!'
+
+Rendered rescues/_trace (89.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:06:15) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 9ms (View: 7 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:06:38) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:06:48) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:07:14) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:07:28) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.0ms)
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:07:47) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 4ms (View: 3 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:09:37) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:09:47) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing PagesController#index (for 127.0.0.1 at 2009-10-13 18:10:17) [GET]
+Rendering template within layouts/application
+Rendering pages/index
+Rendered pages/_rightcol (0.0ms)
+Completed in 3ms (View: 2 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-13 18:10:26) [GET]
+
+ActionController::RoutingError (No route matches "/about" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-10-13 18:11:46) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+
+ActionView::TemplateError (undefined method `include?' for :rightcol:Symbol) on line #2 of app/views/pages/about.html.erb:
+1: <% content_for :rightcol do %>
+2:   <%= render :partial => :rightcol %>
+3:   
+4: <% end %>
+5: 
+
+    app/views/pages/about.html.erb:2
+    app/views/pages/about.html.erb:1
+
+Rendered rescues/_trace (33.8ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-10-13 18:12:06) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered pages/_rightcol (0.1ms)
+Completed in 65ms (View: 63 | 200 OK [http://localhost/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-10-13 18:12:48) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered pages/_rightcol (0.0ms)
+Completed in 4ms (View: 2 | 200 OK [http://localhost/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-10-13 18:12:59) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered pages/_rightcol (0.1ms)
+Completed in 5ms (View: 3 | 200 OK [http://localhost/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-10-13 18:13:14) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered pages/_rightcol (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://localhost/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-10-13 18:13:27) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered pages/_rightcol (0.1ms)
+Completed in 4ms (View: 2 | 200 OK [http://localhost/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-10-13 18:14:14) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered pages/_rightcol (0.1ms)
+Completed in 8ms (View: 7 | 200 OK [http://localhost/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-10-13 18:14:47) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered pages/_rightcol (0.0ms)
+Completed in 8ms (View: 6 | 200 OK [http://localhost/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-10-13 18:15:00) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered pages/_rightcol (0.0ms)
+Completed in 3ms (View: 2 | 200 OK [http://localhost/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-10-13 18:15:23) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered pages/_rightcol (0.1ms)
+Completed in 4ms (View: 3 | 200 OK [http://localhost/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-10-13 18:15:27) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered pages/_rightcol (0.1ms)
+Completed in 4ms (View: 3 | 200 OK [http://localhost/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-10-13 18:15:32) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered pages/_rightcol (0.1ms)
+Completed in 5ms (View: 3 | 200 OK [http://localhost/about]
