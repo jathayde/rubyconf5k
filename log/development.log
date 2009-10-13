@@ -801,3 +801,24 @@ Rendering template within layouts/application
 Rendering pages/about
 Rendered pages/_rightcol (0.1ms)
 Completed in 5ms (View: 3 | 200 OK [http://localhost/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-10-13 18:26:12) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered pages/_rightcol (0.1ms)
+Completed in 10ms (View: 8 | 200 OK [http://localhost/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-10-13 18:26:43) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered pages/_rightcol (0.1ms)
+Completed in 4ms (View: 3 | 200 OK [http://localhost/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2009-10-13 18:26:54) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered pages/_rightcol (0.1ms)
+Completed in 4ms (View: 3 | 200 OK [http://localhost/about]
