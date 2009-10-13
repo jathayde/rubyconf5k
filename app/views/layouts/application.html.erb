@@ -3,7 +3,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
-    <title><%= @page_title %></title>
+    <title>RubyConf5k | <%= @page_title %></title>
     
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta http-equiv="imagetoolbar" content="no" />
@@ -14,6 +14,10 @@
     
     <%= stylesheet_link_tag 'reset', :media => 'screen, projector' %>
     <%= stylesheet_link_tag 'master', :media => 'screen, projector' %>
+    <%= stylesheet_link_tag 'sifr' %>
+    
+    <%= javascript_link_tag 'sifr' %>
+    <%= javascript_link_tag 'sifr-config' %>
     
   </head>
   <body id="<%= @body_id %>">
