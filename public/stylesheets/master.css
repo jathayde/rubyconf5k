@@ -6,8 +6,6 @@ body {
   text-align: center;
 }
 
-
-
 /* LINK STANDARD COLORS */
 
 a         {color:#ae2a1b; text-decoration:none;}
@@ -19,7 +17,7 @@ a:visited {color:#6b352f; text-decoration:underline;}
 
 /* Standard element definitoins */
 
-h2 {background-color: #FFFFFF; color: #ae2a1b; font-size: 24px; font-weight: bold; }
+h2 {background-color: #FFFFFF; color: #ae2a1b; font-size: 20px; font-weight: bold; }
 h3 {background-color: #FFFFFF; color: #ae2a1b; font-size: 18px; font-weight: bold; }
 
 p {margin: 5px 0 10px;}
