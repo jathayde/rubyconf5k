@@ -26,6 +26,11 @@ class PagesController < ApplicationController
     @page_title = "Schedule"
   end
   
+  def license
+    @body_id = "inside"
+    @page_title = "License"
+  end
+  
   
   
 end

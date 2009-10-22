@@ -31,6 +31,7 @@ ActionController::Routing::Routes.draw do |map|
   #   end
   
   map.with_options(:controller => "pages") do |page_map|
+    page_map.license      '/license',         :action => 'license'
     page_map.about        '/about',           :action => 'about'
     page_map.location     '/location',        :action => 'location'
     page_map.register     '/register',        :action => 'register'
