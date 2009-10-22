@@ -35,6 +35,7 @@ ActionController::Routing::Routes.draw do |map|
     page_map.about        '/about',           :action => 'about'
     page_map.location     '/location',        :action => 'location'
     page_map.register     '/register',        :action => 'register'
+    page_map.donate       '/donate',          :action => 'donate'
     page_map.schedule     '/schedule',        :action => 'schedule'
   end
 

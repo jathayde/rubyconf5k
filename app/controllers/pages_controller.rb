@@ -24,5 +24,9 @@ class PagesController < ApplicationController
     @body_id = "inside"
     @page_title = "License"
   end
+  
+  def donate
+    redirect_to "https://www.justgive.org/basket?acton=viewWishList&donorId=256614&listTypeId=1"
+  end
 
 end
