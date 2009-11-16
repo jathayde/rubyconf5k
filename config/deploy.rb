@@ -8,7 +8,7 @@ set :deploy_via, :copy
 set :git_shallow_clone, 1
 
 set :deploy_to,     "/var/www/rubycentral/rubyconf5k.com/"
-set :user, "rubycentral_deploy"
+set :user, "rubycentral"
 set :use_sudo, false
 set :keep_releases, 5
 
