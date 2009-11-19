@@ -7,7 +7,7 @@ class PagesController < ApplicationController
 
   def location
     @body_id = "inside"
-    @page_title = "Where is it at?"
+    @page_title = "Where?"
   end
 
   def register
