@@ -12,7 +12,7 @@ set :user, "rubycentral"
 set :use_sudo, false
 set :keep_releases, 5
 
-ssh_options[:keys] = ["~/.ssh/id_dsa"]
+ssh_options[:keys] = ["~/.ssh/id_rsa"]
 
 role :app, "rubyconf5k.com"
 role :web, "rubyconf5k.com"
