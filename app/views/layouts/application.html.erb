@@ -1,53 +1,51 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-  <head>
-    <title>RubyConf5k | <%= @page_title %></title>
-    
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta http-equiv="imagetoolbar" content="no" />
-    <meta name="distribution" content="all" />
-    <meta name="robots" content="all" />  
-    <meta name="resource-type" content="document" />
-    <meta name="MSSmartTagsPreventParsing" content="true" />
-    
-    <%= stylesheet_link_tag 'reset', :media => 'screen, projector' %>
-    <%= stylesheet_link_tag 'master', :media => 'screen, projector' %>
-    <%= stylesheet_link_tag 'sifr' %>
-    
-    <%= javascript_include_tag 'sifr' %>
-    <%= javascript_include_tag 'sifr-config' %>
-    
-    
-  </head>
-  <body id="<%= @body_id %>">
-    <div id="wrapper">
-    <div id="nest">
-      <div id="mast">
-        <% if @body_id == "inside" %>
-          <%= link_to image_tag("inside_logo.jpg", :alt => "RubyConf 5k", :id => "logo"), root_url %>
-        <% end %>
-        <% if @body_id == "home" %>
-          <%= link_to image_tag("logo.jpg", :alt => "RubyConf 5k", :id => "homelogo"), root_url %>
-        <% end %>
-        <ul id="nav">
-          <li><%= link_to "What?", root_url %></li>
-          <li><%= link_to "Where?", location_url %></li>
-          <li><%= link_to "When?", schedule_url %></li>
-          <li><%= link_to "Register", register_url %></li>
-          <li><%= link_to "License", license_url %></li>
-          <li><%= link_to "Contact", "mailto:rubyconf5k@gmail.com" %></li>
-        </ul> <!-- // nav -->
-      </div> <!-- // mast -->
-      <br clear="all"/>
-      <div id="leftcolumn">
-        <%= yield %>
-      </div>
-      <div id="rightcolumn">
-        <%= yield :rightcol %>
-      </div>
-    </div> <!-- // nest -->
-    </div> <!-- // wrapper -->
-  </body>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RubyConf5k | <%= @page_title %></title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="imagetoolbar" content="no" />
+  <meta name="distribution" content="all" />
+  <meta name="robots" content="all" />  
+  <meta name="resource-type" content="document" />
+  <meta name="MSSmartTagsPreventParsing" content="true" />
+  
+  <%= stylesheet_link_tag 'reset', :media => 'screen, projector' %>
+  <%= stylesheet_link_tag 'master', :media => 'screen, projector' %>
+  <%= stylesheet_link_tag 'sifr' %>
+  
+  <%= javascript_include_tag 'sifr' %>
+  <%= javascript_include_tag 'sifr-config' %>
+  
+  
+</head>
+<body id="<%= @body_id %>">
+  <div id="wrapper">
+  <div id="nest">
+    <div id="mast">
+      <% if @body_id == "inside" %>
+        <%= link_to image_tag("inside_logo.jpg", :alt => "RubyConf 5k", :id => "logo"), root_url %>
+      <% end %>
+      <% if @body_id == "home" %>
+        <%= link_to image_tag("logo.jpg", :alt => "RubyConf 5k", :id => "homelogo"), root_url %>
+      <% end %>
+      <ul id="nav">
+        <li><%= link_to "What?", root_url %></li>
+        <li><%= link_to "Where?", location_url %></li>
+        <li><%= link_to "When?", schedule_url %></li>
+        <li><%= link_to "Register", register_url %></li>
+        <li><%= link_to "License", license_url %></li>
+        <li><%= link_to "Contact", "mailto:rubyconf5k@gmail.com" %></li>
+      </ul> <!-- // nav -->
+    </div> <!-- // mast -->
+    <br clear="all"/>
+    <div id="leftcolumn">
+      <%= yield %>
+    </div>
+    <div id="rightcolumn">
+      <%= yield :rightcol %>
+    </div>
+  </div> <!-- // nest -->
+  </div> <!-- // wrapper -->
+</body>
 </html>
