@@ -1,3 +1,5 @@
+require 'bundler/capistrano'
+
 set :application,   "rubyconf5k"
 
 set :scm, :git
