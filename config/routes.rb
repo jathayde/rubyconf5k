@@ -5,6 +5,6 @@ Rubyconf5k::Application.routes.draw do
   match '/register' => 'pages#register', :as => :register
   match '/donate' => 'pages#donate', :as => :donate
   match '/schedule' => 'pages#schedule', :as => :schedule
-  match '/' => 'pages#index'
+  root :to => "pages#index"
   match '/:controller(/:action(/:id))'
 end

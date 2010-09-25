@@ -2,6 +2,8 @@ require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
 
+Bundler.require(:default, Rails.env) if defined?(Bundler)
+
 module Rubyconf5k
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
