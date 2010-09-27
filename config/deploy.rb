@@ -39,3 +39,12 @@ task :move_in_database_yml, :roles => :app do
 end
 
 after "deploy:symlink", "move_in_database_yml"
+
+desc "Tail the log on all the app servers"
+task :tail, :roles => :app do
+  run "tail -f #{shared_path}/log/production.log" do |channel, stream, data|
+    puts  # for an extra line break before the host name
+    puts "#{channel[:host]}: #{data}"
+    break if stream == :err
+  end
+end
