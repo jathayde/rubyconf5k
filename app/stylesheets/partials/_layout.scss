@@ -1,0 +1,17 @@
+header {
+  h1, nav {
+    margin: auto;
+  }
+  h1 {
+    background: transparent url('/images/rubyconf_tee_2010.png') no-repeat 0 0;
+    width: 552px;
+    height: 370px;
+  }
+  nav {
+    ul {
+      overflow: hidden;
+      margin: auto;
+      text-align: center;
+    }
+  }
+}

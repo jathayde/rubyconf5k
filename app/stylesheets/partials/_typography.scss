@@ -1,0 +1,22 @@
+header {
+  nav {
+    a, a:visited {
+      text-decoration: none;
+      font-family: "kulturista-web-1","kulturista-web-2",serif;
+      color: #EAC42F;
+      -webkit-transition: all .3s linear;
+      &:hover, &:active {
+        color: $nav-link-hover-color;
+      }
+    }
+  }
+}
+
+#register .register,
+#location .location,
+#license .license,
+#schedule .schedule {
+  a {
+    color: $nav-link-hover-color;
+  }
+}
