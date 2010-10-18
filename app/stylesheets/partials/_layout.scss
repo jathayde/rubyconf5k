@@ -15,3 +15,20 @@ header {
     }
   }
 }
+
+section {
+  width: 61%;
+  float: left;
+  margin-left: 5%;
+}
+
+aside {
+  width: 33%;
+  float: right;
+}
+
+footer {
+  width: 90%;
+  margin: 20px 5%;
+  clear: both;
+}

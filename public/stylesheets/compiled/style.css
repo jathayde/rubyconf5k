@@ -1,4 +1,4 @@
-/* line 27, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
+/* line 27, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -20,30 +20,30 @@ time, mark, audio, video {
   background: transparent;
 }
 
-/* line 38, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
+/* line 38, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 42, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
+/* line 42, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
 nav ul {
   list-style: none;
 }
 
-/* line 44, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
+/* line 44, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 47, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
+/* line 47, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 49, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
+/* line 49, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
 a {
   margin: 0;
   padding: 0;
@@ -53,14 +53,14 @@ a {
   background: transparent;
 }
 
-/* line 51, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
+/* line 51, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
 ins {
   background-color: #ff9;
   color: #000;
   text-decoration: none;
 }
 
-/* line 53, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
+/* line 53, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
 mark {
   background-color: #ff9;
   color: #000;
@@ -68,24 +68,24 @@ mark {
   font-weight: bold;
 }
 
-/* line 55, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
+/* line 55, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
 del {
   text-decoration: line-through;
 }
 
-/* line 57, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
+/* line 57, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
 abbr[title], dfn[title] {
   border-bottom: 1px dotted;
   cursor: help;
 }
 
-/* line 61, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
+/* line 61, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 63, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
+/* line 63, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
 hr {
   display: block;
   height: 1px;
@@ -95,12 +95,12 @@ hr {
   padding: 0;
 }
 
-/* line 65, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
+/* line 65, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_reset.scss */
 input, select {
   vertical-align: middle;
 }
 
-/* line 17, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_fonts.scss */
+/* line 17, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_fonts.scss */
 body {
   font-size: 13px;
   font-family: sans-serif;
@@ -108,12 +108,12 @@ body {
   *font-size: small;
 }
 
-/* line 24, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_fonts.scss */
+/* line 24, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_fonts.scss */
 select, input, textarea, button {
   font: 99% sans-serif;
 }
 
-/* line 29, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_fonts.scss */
+/* line 29, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_fonts.scss */
 pre, code, kbd, samp {
   font-family: monospace, sans-serif;
 }
@@ -165,12 +165,12 @@ sup {
   font-size: smaller;
 }
 
-/* line 60, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
+/* line 60, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
 a:hover, a:active {
   outline: none;
 }
 
-/* line 65, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
+/* line 65, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
 pre {
   padding: 15px;
   white-space: pre;
@@ -179,62 +179,62 @@ pre {
   word-wrap: break-word;
 }
 
-/* line 77, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
+/* line 77, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
 input[type="radio"] {
   vertical-align: text-bottom;
 }
 
-/* line 78, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
+/* line 78, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
 input[type="checkbox"] {
   vertical-align: bottom;
 }
 
-/* line 79, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
+/* line 79, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
 .ie7 input[type="checkbox"] {
   vertical-align: baseline;
 }
 
-/* line 80, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
+/* line 80, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
 .ie6 input {
   vertical-align: text-bottom;
 }
 
-/* line 85, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
+/* line 85, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
 label, input[type=button], input[type=submit], button {
   cursor: pointer;
 }
 
-/* line 97, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
+/* line 97, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
 ::-moz-selection {
   background: #ff5e99;
   color: white;
   text-shadow: none;
 }
 
-/* line 98, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
+/* line 98, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
 ::selection {
   background: #ff5e99;
   color: white;
   text-shadow: none;
 }
 
-/* line 103, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
+/* line 103, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
 a:link {
   -webkit-tap-highlight-color: #ff5e99;
 }
 
-/* line 114, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
+/* line 114, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
 button {
   width: auto;
   overflow: visible;
 }
 
-/* line 118, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
+/* line 118, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
 .ie7 img {
   -ms-interpolation-mode: bicubic;
 }
 
-/* line 120, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
+/* line 120, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_styles.scss */
 .ie6 legend, .ie7 legend {
   margin-left: -7px;
 }
@@ -265,7 +265,7 @@ button {
 .clearfix {
   *zoom: 1;
 }
-/* line 22, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 22, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .clearfix:after {
   content: "\0020";
   display: block;
@@ -276,46 +276,46 @@ button {
 }
 
 @media print {
-  /* line 24, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_media.scss */
+  /* line 24, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_media.scss */
   * {
     background: transparent !important;
     color: #444 !important;
     text-shadow: none !important;
   }
 
-  /* line 26, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_media.scss */
+  /* line 26, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_media.scss */
   a, a:visited {
     color: #444 !important;
     text-decoration: underline;
   }
 
-  /* line 28, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_media.scss */
+  /* line 28, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_media.scss */
   a:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 30, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_media.scss */
+  /* line 30, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_media.scss */
   abbr:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 32, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_media.scss */
+  /* line 32, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_media.scss */
   .ir a:after {
     content: "";
   }
 
-  /* line 34, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_media.scss */
+  /* line 34, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_media.scss */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 36, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_media.scss */
+  /* line 36, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_media.scss */
   thead {
     display: table-header-group;
   }
 
-  /* line 38, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_media.scss */
+  /* line 38, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_media.scss */
   tr, img {
     page-break-inside: avoid;
   }
@@ -324,13 +324,13 @@ button {
     margin: 0.5cm;
 }
 
-  /* line 42, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_media.scss */
+  /* line 42, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_media.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 44, ../../../../../.rvm/gems/ruby-1.8.7-p302/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_media.scss */
+  /* line 44, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_media.scss */
   h2, h3 {
     page-break-after: avoid;
   }
@@ -356,24 +356,81 @@ header nav ul {
   text-align: center;
 }
 
+/* line 19, ../../../app/stylesheets/partials/_layout.scss */
+section {
+  width: 61%;
+  float: left;
+  margin-left: 5%;
+}
+
+/* line 25, ../../../app/stylesheets/partials/_layout.scss */
+aside {
+  width: 33%;
+  float: right;
+}
+
+/* line 30, ../../../app/stylesheets/partials/_layout.scss */
+footer {
+  width: 90%;
+  margin: 20px 5%;
+  clear: both;
+}
+
 /* line 3, ../../../app/stylesheets/partials/_typography.scss */
 header nav a, header nav a:visited {
   text-decoration: none;
   font-family: "kulturista-web-1","kulturista-web-2",serif;
   color: #EAC42F;
   -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -o-transition: all .3s linear;
 }
-/* line 8, ../../../app/stylesheets/partials/_typography.scss */
+/* line 10, ../../../app/stylesheets/partials/_typography.scss */
 header nav a:hover, header nav a:active, header nav a:visited:hover, header nav a:visited:active {
   color: #b2550e;
 }
 
-/* line 19, ../../../app/stylesheets/partials/_typography.scss */
+/* line 21, ../../../app/stylesheets/partials/_typography.scss */
 #register .register a,
 #location .location a,
 #license .license a,
 #schedule .schedule a {
   color: #b2550e;
+}
+
+/* line 26, ../../../app/stylesheets/partials/_typography.scss */
+a.button {
+  text-align: center;
+  padding: 15px 20px;
+  background: #666;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#666666), to(#666666), color-stop(0.6, #333333));
+  background: -moz-linear-gradient(top, #666666, #333333 60%, #666666);
+  /* for firefox 3.6+ */
+  display: inline-block;
+  color: #ccc;
+  text-decoration: none;
+  font-size: 32px;
+  line-height: 1;
+  -border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -box-shadow: 0 1px 3px #999;
+  -moz-box-shadow: 0 1px 3px #999;
+  -webkit-box-shadow: 0 1px 3px #999;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  border-bottom: 1px solid #222;
+  position: relative;
+  margin: 10px;
+  font-family: "atrament-web-1","atrament-web-2",sans-serif;
+}
+/* line 51, ../../../app/stylesheets/partials/_typography.scss */
+a.button:hover {
+  color: #EAC42F;
+  -box-shadow: 0 2px 10px #EAC42F;
+  -moz-box-shadow: 0 2px 10px #EAC42F;
+  -webkit-box-shadow: 0 2px 10px #EAC42F;
 }
 
 /* line 10, ../../../app/stylesheets/partials/_page.scss */
