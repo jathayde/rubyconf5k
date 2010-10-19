@@ -1,3 +1,26 @@
+body {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-weight: 300;
+  color: #333;
+}
+
+/* Global headings */
+
+h1, h2 {
+  font-family: "atrament-web-1","atrament-web-2",sans-serif;
+  font-weight: 300;
+  color: $nav-link-hover-color;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  margin-top: 1em;
+  font-size: 2em;
+}
+
 header {
   nav {
     a, a:visited {
@@ -14,6 +37,7 @@ header {
   }
 }
 
+#index .index,
 #register .register,
 #location .location,
 #license .license,
@@ -33,6 +57,7 @@ a.button {
   color: #ccc;
   text-decoration: none;
   font-size: 32px;
+  font-weight: 600;
   line-height: 1;
   -border-radius: 5px;
   -moz-border-radius: 5px;
@@ -47,7 +72,7 @@ a.button {
   position: relative;
   margin: 10px;
   font-family: "atrament-web-1","atrament-web-2",sans-serif;
-  
+
   &:hover {
     color: #EAC42F;
     -box-shadow: 0 2px 10px #EAC42F;

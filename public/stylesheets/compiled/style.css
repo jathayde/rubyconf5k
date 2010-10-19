@@ -100,24 +100,6 @@ input, select {
   vertical-align: middle;
 }
 
-/* line 17, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_fonts.scss */
-body {
-  font-size: 13px;
-  font-family: sans-serif;
-  line-height: 1.231;
-  *font-size: small;
-}
-
-/* line 24, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_fonts.scss */
-select, input, textarea, button {
-  font: 99% sans-serif;
-}
-
-/* line 29, ../../../../../../../usr/local/cellar/ruby/1.8.7/lib/ruby/gems/1.8/gems/html5-boilerplate-0.2.4/stylesheets/html5-boilerplate/_fonts.scss */
-pre, code, kbd, samp {
-  font-family: monospace, sans-serif;
-}
-
 /* line 16, ../../../app/stylesheets/partials/_example.scss */
 body, select, input, textarea {
   color: #444444;
@@ -339,44 +321,80 @@ button {
 @media all and (orientation:portrait) {}
 @media all and (orientation:landscape) {}
 @media screen and (max-device-width: 480px) {}
-/* line 2, ../../../app/stylesheets/partials/_layout.scss */
+/* line 1, ../../../app/stylesheets/partials/_layout.scss */
+header {
+  margin-bottom: 1em;
+}
+/* line 4, ../../../app/stylesheets/partials/_layout.scss */
 header h1, header nav {
   margin: auto;
 }
-/* line 5, ../../../app/stylesheets/partials/_layout.scss */
+/* line 7, ../../../app/stylesheets/partials/_layout.scss */
 header h1 {
   background: transparent url("/images/rubyconf_tee_2010.png") no-repeat 0 0;
   width: 552px;
   height: 370px;
 }
 /* line 11, ../../../app/stylesheets/partials/_layout.scss */
+header h1 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* line 18, ../../../app/stylesheets/partials/_layout.scss */
 header nav ul {
   overflow: hidden;
   margin: auto;
   text-align: center;
 }
 
-/* line 19, ../../../app/stylesheets/partials/_layout.scss */
+/* line 26, ../../../app/stylesheets/partials/_layout.scss */
 section {
   width: 61%;
   float: left;
   margin-left: 5%;
 }
 
-/* line 25, ../../../app/stylesheets/partials/_layout.scss */
+/* line 32, ../../../app/stylesheets/partials/_layout.scss */
 aside {
   width: 33%;
   float: right;
 }
 
-/* line 30, ../../../app/stylesheets/partials/_layout.scss */
+/* line 37, ../../../app/stylesheets/partials/_layout.scss */
 footer {
   width: 90%;
   margin: 20px 5%;
   clear: both;
 }
 
-/* line 3, ../../../app/stylesheets/partials/_typography.scss */
+/* line 1, ../../../app/stylesheets/partials/_typography.scss */
+body {
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-weight: 300;
+  color: #333;
+}
+
+/* Global headings */
+/* line 9, ../../../app/stylesheets/partials/_typography.scss */
+h1, h2 {
+  font-family: "atrament-web-1","atrament-web-2",sans-serif;
+  font-weight: 300;
+  color: #b2550e;
+}
+
+/* line 15, ../../../app/stylesheets/partials/_typography.scss */
+h1 {
+  font-size: 2.5em;
+}
+
+/* line 19, ../../../app/stylesheets/partials/_typography.scss */
+h2 {
+  margin-top: 1em;
+  font-size: 2em;
+}
+
+/* line 26, ../../../app/stylesheets/partials/_typography.scss */
 header nav a, header nav a:visited {
   text-decoration: none;
   font-family: "kulturista-web-1","kulturista-web-2",serif;
@@ -385,12 +403,13 @@ header nav a, header nav a:visited {
   -moz-transition: all .3s linear;
   -o-transition: all .3s linear;
 }
-/* line 10, ../../../app/stylesheets/partials/_typography.scss */
+/* line 33, ../../../app/stylesheets/partials/_typography.scss */
 header nav a:hover, header nav a:active, header nav a:visited:hover, header nav a:visited:active {
   color: #b2550e;
 }
 
-/* line 21, ../../../app/stylesheets/partials/_typography.scss */
+/* line 45, ../../../app/stylesheets/partials/_typography.scss */
+#index .index a,
 #register .register a,
 #location .location a,
 #license .license a,
@@ -398,7 +417,7 @@ header nav a:hover, header nav a:active, header nav a:visited:hover, header nav 
   color: #b2550e;
 }
 
-/* line 26, ../../../app/stylesheets/partials/_typography.scss */
+/* line 50, ../../../app/stylesheets/partials/_typography.scss */
 a.button {
   text-align: center;
   padding: 15px 20px;
@@ -410,6 +429,7 @@ a.button {
   color: #ccc;
   text-decoration: none;
   font-size: 32px;
+  font-weight: 600;
   line-height: 1;
   -border-radius: 5px;
   -moz-border-radius: 5px;
@@ -425,7 +445,7 @@ a.button {
   margin: 10px;
   font-family: "atrament-web-1","atrament-web-2",sans-serif;
 }
-/* line 51, ../../../app/stylesheets/partials/_typography.scss */
+/* line 76, ../../../app/stylesheets/partials/_typography.scss */
 a.button:hover {
   color: #EAC42F;
   -box-shadow: 0 2px 10px #EAC42F;
@@ -434,21 +454,16 @@ a.button:hover {
 }
 
 /* line 10, ../../../app/stylesheets/partials/_page.scss */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-}
-
-/* line 16, ../../../app/stylesheets/partials/_page.scss */
 strong, th {
   font-weight: bold;
 }
 
-/* line 20, ../../../app/stylesheets/partials/_page.scss */
+/* line 14, ../../../app/stylesheets/partials/_page.scss */
 small {
   font-size: 85%;
 }
 
-/* line 29, ../../../app/stylesheets/partials/_page.scss */
+/* line 23, ../../../app/stylesheets/partials/_page.scss */
 input:invalid, textarea:invalid {
   -moz-border-radius: 1px;
   -webkit-border-radius: 1px;
@@ -462,22 +477,22 @@ input:invalid, textarea:invalid {
   box-shadow: red 0 0 5px 0;
 }
 
-/* line 34, ../../../app/stylesheets/partials/_page.scss */
+/* line 28, ../../../app/stylesheets/partials/_page.scss */
 .no-boxshadow input:invalid,
 .no-boxshadow textarea:invalid {
   background-color: #f0dddd;
 }
 
-/* line 46, ../../../app/stylesheets/partials/_page.scss */
+/* line 40, ../../../app/stylesheets/partials/_page.scss */
 header nav {
   overflow: hidden;
 }
-/* line 50, ../../../app/stylesheets/partials/_page.scss */
+/* line 44, ../../../app/stylesheets/partials/_page.scss */
 header ul li {
   list-style: none;
   display: inline;
 }
-/* line 54, ../../../app/stylesheets/partials/_page.scss */
+/* line 48, ../../../app/stylesheets/partials/_page.scss */
 header ul li a {
   padding: 10px;
   font-size: 24px;
