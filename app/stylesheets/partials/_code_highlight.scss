@@ -1,0 +1,49 @@
+.javascript .comment { color: green; }
+.javascript .string,
+.ruby .string { color: #40FF3F; }
+.javascript .keywords { color: #FFCF3E; }
+.javascript .global { color: blue; }
+.javascript .brackets { color: #efefef; }
+.javascript .booleans { color: #079997; }
+
+    .css .comment {
+        color : gray;
+    }
+
+    .css .properties {
+        color : navy;
+    }
+
+    .css .selectors {
+        color : maroon;
+        font-weight : bold;
+    }
+
+    .css .units {
+        color :red;
+    }
+
+    .css .urls {
+        color :green;
+    }
+.html .tag,
+.builder .tag { color: #FF672D; }
+
+.html .comment {
+    color: gray;
+    font-style: italic;
+    }
+
+.html .string,
+.builder .string { color: #40FF3F; }
+.html .doctype,
+.bulder .doctype { color: teal; }
+.html .attribute,
+.builder .attribute { color: #91CE9D; }
+
+.ruby .symbol,
+.builder .symbol { color: #079997; }
+.ruby .keywords,
+.builder .keywords { color: #FF672D; }
+.ruby .comment,
+.builder .comment { color: #A229C3; }

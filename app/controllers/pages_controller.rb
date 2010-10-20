@@ -26,7 +26,7 @@ class PagesController < ApplicationController
   end
   
   def donate
-    redirect_to "https://www.justgive.org/basket?acton=viewWishList&donorId=256614&listTypeId=1"
+    redirect_to "http://us.movember.com/donate/your-details/team_id/89968/"
   end
 
 end

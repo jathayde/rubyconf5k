@@ -1,5 +1,21 @@
+body {
+  width: 960px;
+  margin: auto;
+}
+
+@mixin full-width {
+  margin: {
+    left: 10px;
+    right: 10px;
+  }
+}
+
 header {
-  margin-bottom: 1em;
+  margin: {
+    bottom: 2em;
+  }
+
+  @include full-width;
 
   h1, nav {
     margin: auto;
@@ -24,18 +40,48 @@ header {
 }
 
 section {
-  width: 61%;
-  float: left;
-  margin-left: 5%;
+  @include full-width;
 }
 
 aside {
-  width: 33%;
+  width: 220px;
   float: right;
+  text-align: right;
 }
 
 footer {
-  width: 90%;
-  margin: 20px 5%;
+  @include full-width;
   clear: both;
+}
+
+/* Page-specific */
+
+/* Index */
+
+#runrunrun {
+  clear: both;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  li {
+    float: left;
+    width: 220px;
+    margin-right: 20px;
+  } 
+}
+
+#index {
+  section {
+    h1 {
+      width: 240px;
+    }
+    pre {
+      width: 430px;
+      font-size: 100%;
+    }
+    h1, pre {
+      float: left;
+    }
+  }
 }
