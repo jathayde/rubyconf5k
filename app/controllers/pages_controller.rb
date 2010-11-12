@@ -24,12 +24,12 @@ class PagesController < ApplicationController
     @body_id = "inside"
     @page_title = "License"
   end
-  
+
   def results
     @body_id = "inside"
     @page_title = "Results"
   end
-  
+
   def donate
     redirect_to "http://us.movember.com/donate/your-details/team_id/89968/"
   end
