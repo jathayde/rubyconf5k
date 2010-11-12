@@ -477,16 +477,17 @@ header nav a:hover, header nav a:active, header nav a:visited:hover, header nav 
   color: #b2550e;
 }
 
-/* line 73, ../../../app/stylesheets/partials/_typography.scss */
+/* line 74, ../../../app/stylesheets/partials/_typography.scss */
 #index .index a,
 #register .register a,
+#results .results a,
 #location .location a,
 #license .license a,
 #schedule .schedule a {
   color: #b2550e;
 }
 
-/* line 78, ../../../app/stylesheets/partials/_typography.scss */
+/* line 79, ../../../app/stylesheets/partials/_typography.scss */
 a.button {
   text-align: center;
   padding: 15px 20px;
@@ -514,7 +515,7 @@ a.button {
   margin: 10px;
   font-family: "atrament-web-1","atrament-web-2",sans-serif;
 }
-/* line 104, ../../../app/stylesheets/partials/_typography.scss */
+/* line 105, ../../../app/stylesheets/partials/_typography.scss */
 a.button:hover {
   color: #EAC42F;
   -box-shadow: 0 2px 10px #EAC42F;
